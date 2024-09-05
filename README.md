@@ -1,0 +1,2 @@
+# Supply-Chain-Digitization-using-Blockchain-and-IoT-IPFS
+This project develops a blockchain-based system for enhanced supply chain transparency and traceability, integrating IoT for real-time monitoring. Initially storing data on-chain, it later adopts IPFS for scalability. Tests confirm its viability, and future phases aim to refine the system for broader industry applications and improved efficiency.
