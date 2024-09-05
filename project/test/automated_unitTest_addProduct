@@ -1,0 +1,22 @@
+const Provenance = artifacts.require("Provenance")
+
+contract("Add Product Tests", (accounts) => {
+  let provenanceInstance
+
+  before(async () => {
+    provenanceInstance = await Provenance.deployed()
+  })
+
+  it("should add a product correctly", async () => {
+    await provenanceInstance.addProduct("PROD001", "QmSomeIpfsHash", {
+      from: accounts[1],
+    })
+
+    const productCID = await provenanceInstance.getProductCID("PROD001")
+    assert.equal(
+      productCID,
+      "QmSomeIpfsHash",
+      "IPFS CID should match the provided CID"
+    )
+  })
+})
