@@ -13,6 +13,7 @@ maintaining product quality and compliance throughout the supply chain.  The
 application features detailed management capabilities for products and shipments, 
 including the addition, tracking, and updating of product information stored on the 
 blockchain. 
+
 This project also investigates the performance of blockchain-based systems 
 for supply chain management by conducting experiments with different smart 
 contract implementations. Initially, all data was stored directly on the blockchain. To 
@@ -27,6 +28,7 @@ practical viability of this approach but also showcased its strong potential for
 integration into real-world supply chain management systems. This proof of concept 
 paves the way for more extensive applications and suggests a robust framework for 
 future deployments.  
+
 In the next phases of this project, we plan to address the limitations that were 
 identified during these initial tests. Our aim is to refine the system’s capabilities 
 further and explore a wider range of applications, enhancing both the scalability and 
